@@ -41,7 +41,7 @@ const config = {
     path: path.join(__dirname, 'dist'),
     filename: '[name].js',
     libraryTarget: 'umd',
-    library: 'ReactSortableTreeThemeFileExplorer',
+    library: 'ReactSortableTreeThemeMinimal',
   },
   devtool: 'source-map',
   plugins: [
@@ -59,7 +59,7 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.js$|jsx/,
         use: ['babel-loader'],
         exclude: path.join(__dirname, 'node_modules'),
       },
