@@ -11,8 +11,7 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  left:0;
-  right:45px;
+  width: 80%;
 }
 
 .validDrop {
@@ -24,6 +23,7 @@
 }
 
 .highlight {
+  background: rgba(240, 240, 240, 0.7);
   height: 100%;
   cursor: pointer;
 }
